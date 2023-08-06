@@ -15,9 +15,6 @@ nav a:link {
     background-color: #9BCDD2;
     color: black;
 }
-nav a:visited {
-    color: black;
-}
 nav a:hover {
     background-color: #FF8551;
 }
@@ -39,23 +36,32 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-nav ul li.dropdown:hover .dropdown-content {
+nav ul li.dropdown:hover .dropdown-content-Games {
     display: block;
 }
-.dropdown-content {
+nav ul li.dropdown:hover .dropdown-content-Minecraft {
+    display: block;
+}
+nav ul li.dropdown:hover .dropdown-content-Websites {
+    display: block;
+}
+.dropdown-content-Games {
     display: none;
     position: absolute;
     min-width: 160px; 
     z-index: 1;
 }
-.dropdown-content a {
-    background-color: #bfdfe2;
-    color: black;
-    text-decoration: none;
-    display: block;
-} 
-.dropdown-content a:hover {
-    background-color: #FF8551;
+.dropdown-content-Minecraft {
+    display: none;
+    position: absolute;
+    min-width: 215px; 
+    z-index: 1;
+}
+.dropdown-content-Websites {
+    display: none;
+    position: absolute;
+    min-width: 120px; 
+    z-index: 1;
 }
 li.dropdown {
     position: relative;
@@ -64,13 +70,15 @@ li.dropdown {
     background-color: #9BCDD2;
 }
 
+/* Background */
+body {
+    background-color: #FAF0E4;
+}
+
 /* Text CSS */
 h1 {
     font-size: 2em;
     text-align: center;
-}
-body {
-    background-color: #FAF0E4;
 }
 p.normtext {
     color: black;
