@@ -26,6 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
     slideIndex2++;
     if (slideIndex2 > slides.length) {slideIndex2 = 1}
     slides[slideIndex2-1].style.display = "block";
-    setTimeout(showSlides2, 5000); // Change image every 8 seconds
+    setTimeout(showSlides2, 5000); // Change image every 5 seconds
   }
 });
