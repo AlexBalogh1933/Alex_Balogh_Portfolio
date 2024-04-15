@@ -139,6 +139,18 @@ ul.list {
     padding-left: 60px;
     padding-right: 20px;
 }
+p.picName {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    margin: 10px;
+}
+p.picDetails {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    margin: 10px;
+}
 
 /* Borders and Lines*/
 div.border {
@@ -170,6 +182,9 @@ hr {
     width: 800px;
     position: relative;
     left: 100px;
+}
+.Gone2D {
+    width: 900px;
 }
 
 /* Slideshow CSS */
