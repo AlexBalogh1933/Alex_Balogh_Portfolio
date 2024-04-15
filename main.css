@@ -152,6 +152,14 @@ p.picDetails {
     margin: 10px;
 }
 
+a:visited.sims4Guide {
+    color: blue;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 /* Borders and Lines*/
 div.border {
     border-radius: 1em;
@@ -185,6 +193,9 @@ hr {
 }
 .Gone2D {
     width: 900px;
+}
+.Sims4Page {
+    width: 800px;
 }
 
 /* Slideshow CSS */
