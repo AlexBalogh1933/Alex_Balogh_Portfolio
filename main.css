@@ -197,6 +197,10 @@ hr {
 .Sims4Page {
     width: 800px;
 }
+.proPicture {
+    float: right;
+    width: 400px;
+}
 
 /* Slideshow CSS */
 * {box-sizing:border-box}
