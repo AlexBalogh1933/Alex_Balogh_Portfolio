@@ -201,6 +201,13 @@ hr {
     float: right;
     width: 400px;
 }
+.GraveyardAnalog {
+    width: 600px;
+}
+.GraveyardAnalogLong {
+    width: 800px;
+}
+
 
 /* Slideshow CSS */
 * {box-sizing:border-box}
