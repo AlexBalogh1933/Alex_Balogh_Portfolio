@@ -166,7 +166,7 @@ p.picName {
 }
 p.picDetails {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     padding-left: 15px;
     margin: 10px;
 }
@@ -206,15 +206,16 @@ hr {
     width: 700px;
 }
 .PMTop {
-    width: 800px;
-    position: relative;
-    left: 100px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .Gone2D {
     width: 900px;
 }
 .Sims4Page {
-    width: 800px;
+    width: 1000px;
 }
 .proPicture {
     float: right;
