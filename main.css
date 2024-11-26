@@ -235,6 +235,9 @@ hr {
 .OSPictures {
     width: 1000px;
 }
+.GruntRules {
+    width: 1200px;
+}
 
 
 /* Slideshow CSS */
@@ -256,6 +259,9 @@ hr {
     display: none;
 }
 .mySlides2 {
+    display: none;
+}
+.mySlides3 {
     display: none;
 }
     /* Caption text */

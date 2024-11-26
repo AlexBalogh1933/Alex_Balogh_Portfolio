@@ -28,4 +28,19 @@ document.addEventListener("DOMContentLoaded", function() {
     slides[slideIndex2-1].style.display = "block";
     setTimeout(showSlides2, 5000); // Change image every 5 seconds
   }
+
+  let slideIndex3 = 0;
+  showSlides3();
+
+  function showSlides3() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides3");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex3++;
+    if (slideIndex3 > slides.length) {slideIndex3 = 1}
+    slides[slideIndex3-1].style.display = "block";
+    setTimeout(showSlides3, 10000); // Change image every 10 seconds
+  }
 });
