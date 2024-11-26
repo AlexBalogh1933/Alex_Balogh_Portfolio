@@ -36,7 +36,10 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-nav ul li.dropdown:hover .dropdown-content-Games {
+nav ul li.dropdown:hover .dropdown-content-DigGames {
+    display: block;
+}
+nav ul li.dropdown:hover .dropdown-content-AnaGames {
     display: block;
 }
 nav ul li.dropdown:hover .dropdown-content-Minecraft {
@@ -48,7 +51,13 @@ nav ul li.dropdown:hover .dropdown-content-Roblox {
 nav ul li.dropdown:hover .dropdown-content-Websites {
     display: block;
 }
-.dropdown-content-Games {
+.dropdown-content-DigGames {
+    display: none;
+    position: absolute;
+    min-width: 250px; 
+    z-index: 1;
+}
+.dropdown-content-AnaGames {
     display: none;
     position: absolute;
     min-width: 160px; 
