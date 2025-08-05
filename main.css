@@ -171,12 +171,22 @@ p.picDetails {
     margin: 10px;
 }
 
-a:visited.sims4Guide {
-    color: blue;
+/* Website Links */
+a.links {
+    color: #3f868d;
     font-size: 20px;
     font-family: "Times New Roman", serif;
-    padding-left: 1em;
-    padding-right: 1em;
+    font-weight: bold;
+}
+a:hover.links {
+    color: #FF8551;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+}
+a:visited.links {
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
 }
 
 /* Borders and Lines*/
