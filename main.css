@@ -1,14 +1,24 @@
 /* Nav menu CSS */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em; 
+    width: 100%;
+    background-color: #9BCDD2;
+    border-radius: 30px;
+}
 nav a{
     text-align: center;
     text-decoration: none;
     font-size: 1.4em;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: .05em;
-    padding-bottom: .05em;
+    /*padding-top: .05em;
+    padding-bottom: .05em;*/
+    padding-top: .8em;
+    padding-bottom: .8em;
     border: solid 1px #9BCDD2;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     display: inline-block;
 }
 nav a:link {
@@ -36,49 +46,14 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-nav ul li.dropdown:hover .dropdown-content-DigGames {
+nav ul li.dropdown:hover .dropdown-content {
     display: block;
 }
-nav ul li.dropdown:hover .dropdown-content-AnaGames {
-    display: block;
-}
-nav ul li.dropdown:hover .dropdown-content-Minecraft {
-    display: block;
-}
-nav ul li.dropdown:hover .dropdown-content-Roblox {
-    display: block;
-}
-nav ul li.dropdown:hover .dropdown-content-Websites {
-    display: block;
-}
-.dropdown-content-DigGames {
+.dropdown-content {
     display: none;
     position: absolute;
-    min-width: 250px; 
-    z-index: 1;
-}
-.dropdown-content-AnaGames {
-    display: none;
-    position: absolute;
-    min-width: 160px; 
-    z-index: 1;
-}
-.dropdown-content-Minecraft {
-    display: none;
-    position: absolute;
-    min-width: 215px; 
-    z-index: 1;
-}
-.dropdown-content-Roblox {
-    display: none;
-    position: absolute;
-    min-width: 190px; 
-    z-index: 1;
-}
-.dropdown-content-Websites {
-    display: none;
-    position: absolute;
-    min-width: 160px; 
+    width: 100%;
+    /*min-width: 250px; */
     z-index: 1;
 }
 li.dropdown {
@@ -204,6 +179,24 @@ hr {
     border-top: 2px solid black;
     margin: 20px 0;
 }
+
+/* Tables */
+table.gameDescription, th.gameDescription, td.gameDescription {
+  border: 1px none black;
+  padding: 10px;
+  text-align: center;
+  width: 33%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+th.gameDescription {
+    font-size: 25px;
+}
+td.gameDescription {
+    font-size: 20px;
+}
+
+
 
 /* Pictures */
 .divDetailLevel {
